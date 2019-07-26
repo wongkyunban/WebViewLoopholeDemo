@@ -1,0 +1,14 @@
+<paths xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--Context.getFilesDir()  files/-->
+    <files-path name="music" path="music" />
+    <!--getCacheDir()-->
+    <cache-path name="cache_in" path="cache" />
+    <!--Environment.getExternalStorageDirectory()-->
+    <external-path name="files" path="aaa" />
+    <external-path name="images" path="images" />
+    <!--Context#getExternalFilesDir(String) Context.getExternalFilesDir(null)-->
+    <external-files-path name="file_out" path="files" />
+    <!-- Context.getExternalCacheDir()-->
+    <external-cache-path name="cache_out" path="cache" />
+
+</paths>
